@@ -1,13 +1,13 @@
 #include <iostream>
 
-int Add(int x, int y)
+int Subtract(int x, int y)
 {
-    return x + y ;
+    return x - y ;
 }
 
 int main()
 {
-   int result = Add (5,2);
+   int result = Subtract (5,2);
     std::cout << result << std::endl;
     return 0;
 }
